@@ -1,14 +1,14 @@
-$ (document).ready (function () {
-  const $wrapper = $ ('.wrapper');
-  const up = $ ('.arrow#up');
-  const arrow = $ ('.arrow#down');
+$(document).ready(function() {
+  const $wrapper = $(".wrapper");
+  const up = $(".arrow#up");
+  const arrow = $(".arrow#down");
 
-  up.on ('click', () => fullpage_api.moveSectionUp ());
-  arrow.on ('click', () => {
-    fullpage_api.moveSectionDown ();
+  up.on("click", () => fullpage_api.moveSectionUp());
+  arrow.on("click", () => {
+    fullpage_api.moveSectionDown();
   });
 
-  $ ('#fullpage').fullpage ({
+  $("#fullpage").fullpage({
     //options here
     autoScrolling: true,
     scrollHorizontally: true,
@@ -16,13 +16,11 @@ $ (document).ready (function () {
     responsiveWidth: 900,
     scrollbar: true,
     scrollOverflow: false,
-    navigation: true,
-    navigationPosition: 'left',
-    navigationTooltips: ['About', 'Portfolio', 'Find Me'],
-    fixedElements: '.arrow#up, .arrow#down, #nav',
-    anchors: ['firstPage', 'secondPage', '3rdPage'],
+
+    fixedElements: ".arrow#up, .arrow#down, #nav",
+    anchors: ["firstPage", "secondPage", "thirdPage"]
   });
 
   //methods
-  $.fn.fullpage.setAllowScrolling (true);
+  $.fn.fullpage.setAllowScrolling(true);
 });
