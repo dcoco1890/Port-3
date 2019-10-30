@@ -57,7 +57,7 @@ div.subheading.mb-2 {
     to(#7baabe)
   );
   background: -webkit-linear-gradient(#4bbfc3, #7baabe);
-  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background: linear-gradient(120deg, rgba(0,0,0,0.5) 0%, #8fd3f4 100%);
 }
 
 .box {
@@ -112,6 +112,9 @@ ul#myMenu li {
   margin: 5px 0;
   font-size: 2rem;
   color: #444;
+}
+li a {
+    color: #99ccff;
 }
 a:hover {
   text-decoration: none;
