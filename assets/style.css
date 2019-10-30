@@ -1,0 +1,32 @@
+#pic0 {
+    object-fit: cover;
+    -webkit-shape-outside: circle();
+    shape-outside: circle();
+    border-radius: 50%;
+    margin-right: 2em;
+    margin-top: 15px;
+    width: 190px;
+    height: 190px;
+}
+
+#nav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+}
+
+#section0 {
+    background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
+    background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
