@@ -1,4 +1,7 @@
 # Port-3
 A portfolio/resume site for me, Daniel Cohen
 
-[This will be a link once I think it's ready to be shown to the world](#)
+[Check me out!](https://dcoco1890.github.io/Port-3/)
+---
+
+#### Work in progress! I am using [fullPage.js](https://github.com/alvarotrigo/fullPage.js) to make the site pretty
