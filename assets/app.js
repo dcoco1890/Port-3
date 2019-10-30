@@ -16,9 +16,11 @@ $(document).ready(function() {
     responsiveWidth: 900,
     scrollbar: true,
     scrollOverflow: false,
-
+    loopBottom: true,
+    loopTop: true,
     fixedElements: ".arrow#up, .arrow#down, #nav",
-    anchors: ["firstPage", "secondPage", "thirdPage"]
+    anchors: ["firstPage", "secondPage", "thirdPage"],
+    menu: "#myMenu"
   });
 
   //methods

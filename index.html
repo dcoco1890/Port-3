@@ -32,85 +32,72 @@
   </head>
 
   <body>
+      <nav class="navbar navbar-dark" id="nav">
+        <div id="nav-div">
+          <div id="color">
+            <img id="pic0" src="assets/img/glasses.jpg" />
+          </div>
+          <ul id="myMenu">
+            <li data-menuanchor="firstPage" class="active">
+              <a href="#firstPage">ABOUT</a>
+            </li>
+            <li data-menuanchor="secondPage">
+              <a href="#secondPage">SKILLS</a>
+            </li>
+            <li data-menuanchor="thirdPage">
+              <a href="#thirdPage">PORTFOLIO</a>
+            </li>
+            <li data-menuanchor="fourthPage">
+              <a href="#fourthPage">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <div id="fullpage">
       <!-- First page -->
       <div class="section" id="section0">
-        <nav class="navbar navbar-dark" id="nav">
-          <div id="nav-div">
-            <div id="color">
-              <img id="pic0" src="assets/img/glasses.jpg" />
-            </div>
-            <ul id="myMenu">
-              <li data-menuanchor="firstPage" class="active">
-                <a href="#firstPage">About</a>
-              </li>
-              <li data-menuanchor="secondPage">
-                <a href="#secondPage">Skills</a>
-              </li>
-              <li data-menuanchor="thirdPage">
-                <a href="#thirdPage">Portfolio</a>
-              </li>
-              <li data-menuanchor="fourthPage">
-                <a href="#fourthPage">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
 
         <!-- First page content -->
-        <div class="text-center">
-          <div class="row">
-            <div class="col-lg-4 ml-4" id="front-stuff">
-              <h2 class="display-4">Daniel Cohen</h2>
-              <h6>Front-End Developer with a Cyber Security background</h6>
-            </div>
-            <p class="left">
-              I like to make things for the web! I just completed University of
-              Richmond's Coding Bootcamp, and am working on my Associates in
-              Cyber Security from John Tyler. I'm currently looking to break
-              into the field of web development
-            </p>
-            <p class="left">
-              I recently started learning React, and I've been having a blast
-              creating with it. I started learning basic HTML and CSS in middle
-              school and it is awesome to think how far web design has come
-              since then.
-            </p>
 
-            <div class="col-lg-7" id="skillz">
-              <h3 style="font-size: 2.5rem; font-weight: 200;" id="stuff-i-do">
-                Stuff I can do
-              </h3>
-              <div class="row">
-                <div class="col">
-                  <ul class="list-inline text-right pt-3">
-                    <li class="list-inline-item">
-                      <i class="fab fa-html5"></i>
-                    </li>
-                    <li class="list-inline-item">
-                      <i class="fab fa-css3-alt"></i>
-                    </li>
-                    <li class="list-inline-item">
-                      <i class="fab fa-js-square"></i>
-                    </li>
-                    <li class="list-inline-item">
-                      <i class="fab fa-node"></i>
-                    </li>
-                    <li class="list-inline-item">
-                      <i class="fab fa-node-js"></i>
-                    </li>
-                    <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    <li class="list-inline-item">
-                      <i class="fab fa-python"></i>
-                    </li>
-                    <li class="list-inline-item">
-                      <i class="fab fa-react"></i>
-                    </li>
-                  </ul>
-                </div>
+        <div class="page-wrapper">
+          <div id="front-stuff">
+            <h2 class="display-4">Daniel Cohen</h2>
+            <div class="subheading mb-2">
+              Front-End Developer, Cyber Security background
+            </div>
+          </div>
+
+          <div id="skillz">
+            <div class="row">
+              <div class="col">
+                <ul class="list-inline pt-3">
+                  <li class="list-inline-item">
+                    <i class="fab fa-html5"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fab fa-css3-alt"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fab fa-js-square"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fab fa-node"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fab fa-node-js"></i>
+                  </li>
+                  <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                  <li class="list-inline-item">
+                    <i class="fab fa-python"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fab fa-react"></i>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
+
           <img class="arrow" id="down" src="assets/img/down.png" />
           <img class="arrow" id="up" src="assets/img/down.png" />
         </div>
@@ -127,6 +114,18 @@
               If I'm not gardening or practicing yoga, I'm building something or
               learning something new
             </h2>
+            <p class="left">
+              I like to make things for the web! I just completed University of
+              Richmond's Coding Bootcamp, and am working on my Associates in
+              Cyber Security from John Tyler. I'm currently looking to break
+              into the field of web development
+            </p>
+            <p class="left">
+              I recently started learning React, and I've been having a blast
+              creating with it. I started learning basic HTML and CSS in middle
+              school and it is awesome to think how far web design has come
+              since then.
+            </p>
           </div>
           <!-- <div class="row">
                         <div class="col-md-6">
