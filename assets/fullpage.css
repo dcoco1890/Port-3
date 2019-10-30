@@ -72,16 +72,17 @@ html.fp-enabled,
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+/* I (COHEN) changed the border color from fff to ccc*/
 .fp-controlArrow.fp-prev {
   left: 15px;
   width: 0;
   border-width: 38.5px 34px 38.5px 0;
-  border-color: transparent #fff transparent transparent;
+  border-color: transparent #ccc transparent transparent;
 }
 .fp-controlArrow.fp-next {
   right: 15px;
   border-width: 38.5px 0 38.5px 34px;
-  border-color: transparent transparent transparent #fff;
+  border-color: transparent transparent transparent #ccc;
 }
 .fp-scrollable {
   overflow: hidden;

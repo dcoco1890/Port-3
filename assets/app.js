@@ -20,7 +20,8 @@ $(document).ready(function() {
     loopTop: true,
     fixedElements: ".arrow#up, .arrow#down, #nav",
     anchors: ["firstPage", "secondPage", "thirdPage"],
-    menu: "#myMenu"
+    menu: "#myMenu",
+    sectionsColor: ["whitesmoke", "whitesmoke", "whitesmoke"]
   });
 
   //methods
