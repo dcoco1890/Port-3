@@ -27,36 +27,39 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="assets/fullpage.css" />
     <link rel="stylesheet" type="text/css" href="assets/style.css" />
   </head>
 
   <body>
-      <nav class="navbar navbar-dark" id="nav">
-        <div id="nav-div">
-          <div id="color">
-            <img id="pic0" src="assets/img/glasses.jpg" />
-          </div>
-          <ul id="myMenu">
-            <li data-menuanchor="firstPage" class="active">
-              <a href="#firstPage">ABOUT</a>
-            </li>
-            <li data-menuanchor="secondPage">
-              <a href="#secondPage">SKILLS</a>
-            </li>
-            <li data-menuanchor="thirdPage">
-              <a href="#thirdPage">PORTFOLIO</a>
-            </li>
-            <li data-menuanchor="fourthPage">
-              <a href="#fourthPage">CONTACT</a>
-            </li>
-          </ul>
+    <nav class="navbar navbar-dark" id="nav">
+      <div id="nav-div">
+        <div id="color">
+          <img id="pic0" src="assets/img/glasses.jpg" />
         </div>
-      </nav>
+        <ul id="myMenu">
+          <li data-menuanchor="firstPage" class="active">
+            <a href="#firstPage">ABOUT</a>
+          </li>
+          <li data-menuanchor="secondPage">
+            <a href="#secondPage">SKILLS</a>
+          </li>
+          <li data-menuanchor="thirdPage">
+            <a href="#thirdPage">PORTFOLIO</a>
+          </li>
+          <li data-menuanchor="fourthPage">
+            <a href="#fourthPage">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div id="fullpage">
       <!-- First page -->
       <div class="section" id="section0">
-
         <!-- First page content -->
 
         <div class="page-wrapper">
@@ -105,10 +108,8 @@
 
       <!-- Second page -->
       <div class="section" id="section2">
-        <!-- background garden image -->
-        <div id="back"></div>
         <!-- Second page content -->
-        <div class="wrapper" id="about">
+        <div class="page-wrapper" id="about">
           <div class="box">
             <h2 class="display-4">
               If I'm not gardening or practicing yoga, I'm building something or
@@ -141,6 +142,17 @@
                         </div>
                     </div> -->
           <div class="d-flex" id="lists">
+            <div class="tech shadow-sm">
+              <ul class=" list-group">
+                <li class="list-group-item-dark">
+                  <strong>I'm Good at:</strong>
+                </li>
+                <li class="list-group-item">HTML</li>
+                <li class="list-group-item">CSS</li>
+                <li class="list-group-item">Javascript</li>
+                <li class="list-group-item">jQuery</li>
+              </ul>
+            </div>
             <div class="tech">
               Okay at:
               <ul>
