@@ -132,9 +132,17 @@ li.list-group-item {
 img.card-img-top {
   max-width: 100%;
 }
-div.card-deck div.card {
-  max-width: 20rem;
+div.card {
+  max-width: 30rem;
   margin: 0 auto;
+}
+h4.card-title {
+  display: inline-block;
+  margin-right: 2rem;
+}
+a .icon {
+  font-size: 30px;
+  color: #111;
 }
 #proj0 {
   padding: 0 2rem;
