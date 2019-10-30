@@ -32,6 +32,7 @@ h2.display-4,
 div.subheading.mb-2 {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 800;
+  max-width: 60rem;
 }
 #nav {
   text-align: center;
@@ -59,8 +60,22 @@ div.subheading.mb-2 {
   background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 
-#section0 {
+.box {
+  float: left;
+  max-width: 30rem;
+  padding: 30px;
 }
+div#lists {
+  padding: 30px;
+  width: 30rem;
+  margin-left: 3rem;
+}
+/* p.left {
+  max-width: 30rem;
+}
+p.left:not(:first-of-type) {
+  float: left;
+} */
 .arrow {
   width: 5rem;
   position: fixed;
@@ -106,6 +121,10 @@ li.active a {
 }
 i:hover {
   color: #7a8794;
+}
+li.list-group-item {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;s
 }
 
 @keyframes arrow-jump {
