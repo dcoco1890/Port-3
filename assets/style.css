@@ -232,4 +232,11 @@ a .icon {
     padding: 0;
     margin: 0;
   }
+  h2.display-4.pt-5 {
+    padding-left: 0.5rem;
+    font-size: 1.7rem;
+  }
+  div.page-wrapper#about {
+    padding: 0;
+  }
 }
