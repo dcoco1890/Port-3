@@ -2,7 +2,7 @@
   padding: 0 3rem;
   width: 80vw;
   position: relative;
-  left: 17rem;
+  left: 20rem;
 }
 
 #color {
@@ -46,7 +46,7 @@ div.subheading.mb-2 {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 17rem;
+  width: 20rem;
   height: 100vh;
   justify-content: center;
   background: -webkit-gradient(
@@ -177,10 +177,59 @@ a .icon {
 }
 
 @media only screen and (max-width: 900px) {
+  #nav {
+    flex-direction: row;
+    width: 100vw;
+    height: 10rem;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 0%, #4bbfc3 100%);
+    box-shadow: 0 1px 6px 0 black;
+  }
+  ul#myMenu li {
+    font-size: 1.5rem;
+  }
+  #nav-div {
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+  }
+  #color {
+    display: none;
+  }
+  #big-text {
+    font-size: 2rem;
+    max-width: 45rem;
+  }
+  #myMenu {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+  }
+  #up,
+  #down {
+    display: none;
+  }
+  .page-wrapper {
+    position: unset;
+    width: 95vw;
+    /* transform: scale(0.8); */
+  }
 }
 
 @media only screen and (max-width: 640px) {
+  #nav {
+    height: 7.5rem;
+  }
 }
 
 @media only screen and (max-width: 486px) {
+  ul#myMenu li {
+    font-size: 1.1rem;
+  }
+  #nav {
+    height: 5rem;
+  }
+  div#lists {
+    padding: 0;
+    margin: 0;
+  }
 }

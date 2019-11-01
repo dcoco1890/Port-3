@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const $wrapper = $(".wrapper");
+  const $wrapper = $(".page-wrapper");
   const up = $(".arrow#up");
   const arrow = $(".arrow#down");
 
@@ -10,6 +10,7 @@ $(document).ready(function() {
 
   $("#fullpage").fullpage({
     //options here
+    licenseKey: "qZPydrC!p2",
     autoScrolling: true,
     scrollHorizontally: true,
     css3: true,
