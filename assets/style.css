@@ -62,13 +62,13 @@ div.subheading.mb-2 {
 
 .box {
   float: left;
-  max-width: 30rem;
-  padding: 30px;
+  max-width: 25rem;
 }
 div#lists {
   padding: 30px;
   width: 30rem;
   margin-left: 3rem;
+  padding-top: 0;
 }
 /* p.left {
   max-width: 30rem;

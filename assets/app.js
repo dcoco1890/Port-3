@@ -20,9 +20,9 @@ $(document).ready(function() {
     loopBottom: true,
     loopTop: true,
     fixedElements: ".arrow#up, .arrow#down, #nav",
-    anchors: ["firstPage", "secondPage", "thirdPage"],
+    anchors: ["firstPage", "secondPage", "thirdPage", "fourthPage"],
     menu: "#myMenu",
-    sectionsColor: ["whitesmoke", "whitesmoke", "whitesmoke"]
+    sectionsColor: ["whitesmoke", "whitesmoke", "whitesmoke", "whitesmoke"]
   });
 
   //methods
