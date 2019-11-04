@@ -144,8 +144,14 @@ a .icon {
   font-size: 30px;
   color: #111;
 }
-#proj0 {
+.proj {
   padding: 0 2rem;
+}
+#small {
+  display: none;
+}
+.pro-img {
+  width: 1rem;
 }
 @keyframes arrow-jump {
   0% {
@@ -211,8 +217,16 @@ a .icon {
   .page-wrapper {
     position: unset;
     width: 95vw;
-    /* transform: scale(0.8); */
   }
+  .proj {
+    flex-direction: column;
+  }
+  /* #small {
+    display: flex;
+  }
+  #about {
+    display: none;
+  } */
 }
 
 @media only screen and (max-width: 640px) {
