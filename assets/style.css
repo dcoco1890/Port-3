@@ -133,7 +133,7 @@ img.card-img-top {
   max-width: 100%;
 }
 div.card {
-  max-width: 30rem;
+  width: 30rem;
   margin: 0 auto;
 }
 h4.card-title {
@@ -218,9 +218,10 @@ a .icon {
     position: unset;
     width: 95vw;
   }
-  .proj {
-    flex-direction: column;
+  div.card {
+    width: 20rem;
   }
+
   /* #small {
     display: flex;
   }
@@ -232,6 +233,9 @@ a .icon {
 @media only screen and (max-width: 640px) {
   #nav {
     height: 7.5rem;
+  }
+  div.page-wrapper#about {
+    padding: 0;
   }
 }
 
@@ -250,7 +254,18 @@ a .icon {
     padding-left: 0.5rem;
     font-size: 1.7rem;
   }
-  div.page-wrapper#about {
-    padding: 0;
+  .proj {
+    flex-direction: column;
+  }
+  .proj {
+    transform: scale(0.8);
+  }
+  p.card-text {
+    display: none;
+  }
+  div.card {
+    margin-bottom: 0.5rem;
+
+    box-shadow: 0 1px 6px 0 black;
   }
 }
