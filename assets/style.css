@@ -136,6 +136,7 @@ img.card-img-top {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
+  cursor: pointer;
 }
 div.card {
   max-width: 20rem;
@@ -298,7 +299,7 @@ a .icon:hover {
 
   div.card {
     margin-bottom: 0.5rem;
-
+    height: 95%;
     box-shadow: 1px 1px 3px black;
   }
 
