@@ -118,13 +118,34 @@ li a {
 }
 a:hover {
   text-decoration: none;
+  color: inherit;
 }
 li.active a {
   color: #cccccc;
 }
+
 i:hover {
-  color: #7a8794;
+  animation-name: iihover;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
+/* Link Hover color ------------- added 1/5/2020*/
+
+/* added because scss has a default a hover, 
+and it needs to be overridden or we it changes to 
+dark blue then starts transition */
+
+/* so dont change this */
+a:hover {
+  color: #99ccff;
+}
+li a:hover {
+  animation-name: lihover;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+/* tag li hover ------------------------------- */
+
 li.list-group-item {
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
@@ -178,6 +199,8 @@ a .icon:hover {
 .proj-card {
   width: 90%;
 }
+
+/* KEYFRAMES */
 @keyframes arrow-jump {
   0% {
     opacity: 0.2;
@@ -207,6 +230,18 @@ a .icon:hover {
   }
 }
 
+@keyframes lihover {
+  100% {
+    color: #ffcc99;
+  }
+}
+@keyframes iihover {
+  100% {
+    color: #7a8794;
+  }
+}
+
+/* MEDIA QUERIES */
 @media only screen and (max-width: 1000px) {
   #nav {
     flex-direction: row;
